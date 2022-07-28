@@ -1,0 +1,177 @@
+.landing-page,.information-page,.faq-page{
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 0px 15px 30px -15px rgba(0, 0, 0, 0.3);   
+    text-align: center;
+}
+.get-started{
+    width: 100vw;
+    text-align: center;
+}
+.information-page{
+    box-shadow: none;
+}
+.landing-page{
+    height: 90vh;
+    background: url(../Images/HomePageBackground.png) no-repeat;
+    background-size: cover !important;
+
+}
+.information-page-image{
+    background: url(../Images/InformationBackground.webp) no-repeat;
+    background-size: 90%;
+    background-position: top center;
+}
+.landing-page-title em{
+    color: #d389fc;
+    font-size: 18px;
+    font-weight: bold;
+}
+.landing-page-title{
+    text-align: left !important;
+    background: transparent !important;
+    width: 45%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.landing-page-title p,.landing-page-title h1{
+    width: 50%;
+    color:#afa9cd;
+}
+.landing-page-title h1{
+    padding-bottom: 10px;
+    padding-top: 30px;
+    color: #4a327d;
+    font-weight: bolder;
+}
+.information-page h1,.get-started h1{
+    margin-top: 60px;
+    color: #4a327d;
+}
+.faq-page h1{
+    padding: 50px 0 50px 0;
+}
+.information-page-image,.information-page-data{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.information-page-div{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+}
+.information-page-data-div{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto 20px auto;
+    text-align: left;
+}
+.information-page-data-div span:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.information-page-data-div span:nth-child(2) p{
+    width: 60%;
+}
+img{
+    background-color: transparent;
+    margin-right: 10px !important;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.faq-page{
+    background-color: #825cf9;
+    color: white;
+    text-align: center !important;
+    height: max-content;
+}
+.faq-page-accordion{
+    width : 80%;
+    margin: auto;
+    text-align: left !important;
+    padding-bottom: 100px !important;
+}
+.faq-page-accordion-item{
+    background: transparent !important;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.accordion-button,.accordion-button:not(.collapsed) {
+    background: transparent !important;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.get-started-div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.get-started-div-div{
+    display: flex;
+    justify-content: space-around;
+}
+.get-started-div img{
+   height: 80px;
+   width: 80px;
+}
+.get-started-div h5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+  
+@media(max-width:480px) {
+    .landing-page-title{
+        width: 100% !important;
+    }
+    .landing-page-title p,.landing-page-title h1{
+        width: 60%;
+    }
+    .landing-page-image{
+        display: none;
+    }
+    .information-page{
+        height: max-content;
+    }
+    .information-page h1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .information-page-data-div span:nth-child(2) p{
+        width: 100%;
+    }
+    .information-page-image{
+        display: none;
+    }
+    .information-page-data{
+        width: 100%;
+    }
+    .faq-page h1{
+        font-size: xx-large;
+    }
+    .get-started-div-div{
+        margin-top: 50px;
+        display: block;
+    }
+    .get-started-div div{
+        margin-bottom: 50px;
+        display: block;
+    }
+}
