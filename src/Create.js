@@ -37,14 +37,16 @@ const Create = () => {
               {"trait_type": "Token Standard", "value": "ERC721"}
             ]
           }
-          const data = await axios.post('http://192.168.29.39:5000/getIfpsUrl',{data : NFTData});
+          const data = await axios.post('https://nft-based-warranty-system-serv.herokuapp.com/getIfpsUrl',{data : NFTData});
+          //https://nft-based-warranty-system-serv.herokuapp.com/
+          //http://192.168.29.39:5000/getIfpsUrl
           const ethData = await contract.methods.safeMint(buyerAddress,data.data.link).send({
             from : account
           });
           const tokenID = ethData.events.Transfer.returnValues._tokenId;
           nftcreated = true;
-          await axios.post('http://192.168.29.39:5000/storeData',{data : {tokenID : tokenID, warrantyExpireDate : expiryDate}});
-          await fetch("http://192.168.29.39:5000/sendMail", {
+          await axios.post('https://nft-based-warranty-system-serv.herokuapp.com/storeData',{data : {tokenID : tokenID, warrantyExpireDate : expiryDate}});
+          await fetch("https://nft-based-warranty-system-serv.herokuapp.com/sendMail", {
                 method: "POST",
                 body: JSON.stringify({tokenID : tokenID, warrantyExpireDate : expiryDate, name : buyerName, email : buyerEmail, productName : productName,
                   productId : productId,seller : sellerName, brand : brandName}),
@@ -70,7 +72,6 @@ const Create = () => {
       setBuyerEmail('');
       setExpiryDate('')
     }
-    
     setProcessStarted(false);
   }
 
