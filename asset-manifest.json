@@ -1,0 +1,43 @@
+{
+  "files": {
+    "static/js/0.c9f88dea.chunk.js": "/NFT-based-warranty-system-ui/static/js/0.c9f88dea.chunk.js",
+    "static/js/0.c9f88dea.chunk.js.map": "/NFT-based-warranty-system-ui/static/js/0.c9f88dea.chunk.js.map",
+    "static/css/1.c15a777c.chunk.css": "/NFT-based-warranty-system-ui/static/css/1.c15a777c.chunk.css",
+    "static/js/1.6298a554.chunk.js": "/NFT-based-warranty-system-ui/static/js/1.6298a554.chunk.js",
+    "static/js/1.6298a554.chunk.js.map": "/NFT-based-warranty-system-ui/static/js/1.6298a554.chunk.js.map",
+    "main.css": "/NFT-based-warranty-system-ui/static/css/main.545a9076.chunk.css",
+    "main.js": "/NFT-based-warranty-system-ui/static/js/main.a101c695.chunk.js",
+    "main.js.map": "/NFT-based-warranty-system-ui/static/js/main.a101c695.chunk.js.map",
+    "runtime-main.js": "/NFT-based-warranty-system-ui/static/js/runtime-main.c39f47e4.js",
+    "runtime-main.js.map": "/NFT-based-warranty-system-ui/static/js/runtime-main.c39f47e4.js.map",
+    "static/css/4.984f751f.chunk.css": "/NFT-based-warranty-system-ui/static/css/4.984f751f.chunk.css",
+    "static/js/4.8cba8c6d.chunk.js": "/NFT-based-warranty-system-ui/static/js/4.8cba8c6d.chunk.js",
+    "static/js/4.8cba8c6d.chunk.js.map": "/NFT-based-warranty-system-ui/static/js/4.8cba8c6d.chunk.js.map",
+    "static/js/5.2dba8ea9.chunk.js": "/NFT-based-warranty-system-ui/static/js/5.2dba8ea9.chunk.js",
+    "static/js/5.2dba8ea9.chunk.js.map": "/NFT-based-warranty-system-ui/static/js/5.2dba8ea9.chunk.js.map",
+    "static/css/6.30ca2da2.chunk.css": "/NFT-based-warranty-system-ui/static/css/6.30ca2da2.chunk.css",
+    "static/js/6.2417cb24.chunk.js": "/NFT-based-warranty-system-ui/static/js/6.2417cb24.chunk.js",
+    "static/js/6.2417cb24.chunk.js.map": "/NFT-based-warranty-system-ui/static/js/6.2417cb24.chunk.js.map",
+    "static/css/7.6463af0f.chunk.css": "/NFT-based-warranty-system-ui/static/css/7.6463af0f.chunk.css",
+    "static/js/7.8dd1d0fe.chunk.js": "/NFT-based-warranty-system-ui/static/js/7.8dd1d0fe.chunk.js",
+    "static/js/7.8dd1d0fe.chunk.js.map": "/NFT-based-warranty-system-ui/static/js/7.8dd1d0fe.chunk.js.map",
+    "index.html": "/NFT-based-warranty-system-ui/index.html",
+    "static/css/1.c15a777c.chunk.css.map": "/NFT-based-warranty-system-ui/static/css/1.c15a777c.chunk.css.map",
+    "static/css/4.984f751f.chunk.css.map": "/NFT-based-warranty-system-ui/static/css/4.984f751f.chunk.css.map",
+    "static/css/6.30ca2da2.chunk.css.map": "/NFT-based-warranty-system-ui/static/css/6.30ca2da2.chunk.css.map",
+    "static/css/7.6463af0f.chunk.css.map": "/NFT-based-warranty-system-ui/static/css/7.6463af0f.chunk.css.map",
+    "static/css/main.545a9076.chunk.css.map": "/NFT-based-warranty-system-ui/static/css/main.545a9076.chunk.css.map",
+    "static/js/0.c9f88dea.chunk.js.LICENSE.txt": "/NFT-based-warranty-system-ui/static/js/0.c9f88dea.chunk.js.LICENSE.txt",
+    "static/js/4.8cba8c6d.chunk.js.LICENSE.txt": "/NFT-based-warranty-system-ui/static/js/4.8cba8c6d.chunk.js.LICENSE.txt",
+    "static/media/BrandIcon.06310c3e.png": "/NFT-based-warranty-system-ui/static/media/BrandIcon.06310c3e.png",
+    "static/media/HomePage.css": "/NFT-based-warranty-system-ui/static/media/InformationBackground.add467be.webp",
+    "static/media/IconWhite.e3cf5bfa.png": "/NFT-based-warranty-system-ui/static/media/IconWhite.e3cf5bfa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c39f47e4.js",
+    "static/css/4.984f751f.chunk.css",
+    "static/js/4.8cba8c6d.chunk.js",
+    "static/css/main.545a9076.chunk.css",
+    "static/js/main.a101c695.chunk.js"
+  ]
+}
